@@ -1,0 +1,23 @@
+body{
+    background-color:azure;
+    font-family:monospace;
+
+}
+h1{
+    text-align: center;
+    font-size:3vw;
+}
+a{
+    padding: 2vw;
+    text-decoration: none;
+    color:white;
+    background-color: saddlebrown;
+    border: 1px solid black;
+}
+.anchorWrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2vw;
+
+}

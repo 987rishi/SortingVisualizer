@@ -1,0 +1,46 @@
+#HomeButton{
+    max-width:2vw;
+    height: 2vw;
+    color: white;
+    background-color: red;
+    border: 1px solid darkred;
+    text-decoration: none;
+    padding: 0.5vw;
+}
+body{
+    overflow: hidden;
+}
+#Wrapper{
+    position: relative;
+    display: block;
+    border: 1x solid red;
+    max-width: 100%;
+    height: 85dvh;
+    /* bottom: 50px; */
+}
+#Array{
+    /* bottom: 20px; */
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+.blocks{
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    width: 5vw;
+    /* height: 20vw; */
+    margin: auto;
+    position: absolute;
+    bottom:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:sandybrown;
+    transition: all 2s ease;
+}

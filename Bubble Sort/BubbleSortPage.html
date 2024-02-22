@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble Sort</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="author" content="Rishi Sarkar">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a class="bubble_sort_styling_home_button" href="/sorting_visualizer/index.html">Home</a></li>
+        </ul>
+    </nav>
+    <form class="" id="usr_input">
+        <p>Do you want to enter your own list?</p>
+        <label for="button_select_list_yes">Yes</label>
+            <input type="radio" value="Yes" name="option" onclick="input_list()" id="button_select_list_yes" class="radio">
+            
+        <label for="button_select_list_no">No</label>
+            <input type="radio" value="No" name="option" onclick="message_to_user()" id="button_select_list_no" class="radio">
+
+        <input type="text" class="usr_list" id="hidden_input" placeholder="Enter your list" minlength="1" pattern="[0-9,]+" title="Specify numbers separated by ," name="inpList" >
+        <!--Hidden input element-->
+
+        <button class="hidden_submit" id="hidden_submit" type="submit">Submit</button>
+        <p id="alert_to_usr_about_choosing_random_list"></p>
+    </form>
+    <div id="cells">
+        <div id="comparison_left" class="comparison_set"></div>
+        <div id="comparison_symbol" class="comparison_set">
+            <img src="/sorting_visualizer/Static/download.png" alt="comparison_symbol" id="img">
+        </div>
+        <div id="comparison_right" class="comparison_set"></div>
+        <div id="arrow" class="comparison_set">
+            <img src="/sorting_visualizer/Static/images.png" alt="vertical_arrow" id="arrow_img">
+        </div>
+        <div id="VerticalLine"></div>
+    </div>
+</body>
+<script src="js_file.js"></script>
+</html>
